@@ -7,7 +7,7 @@ namespace SecurityQuestions
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             using IHost host = Host.CreateDefaultBuilder(args).ConfigureServices(services =>
             {
